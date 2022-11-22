@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>linkdin</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"
+          ><img src="images/logo.png" alt=""
+        /></a>
+        <div class="search-box">
+          <img src="images/search.png" alt="" /><input
+            type="text"
+            placeholder="Search"
+          />
+        </div>
+      </div>
+      <div class="navbar-centre">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="images/home.png" alt="" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" alt="" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/jobs.png" alt="" /><span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" alt="" /><span>Messeging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/notification.png" alt="" /><span
+                >Notification</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="images/user-1.png"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <!-----------profile dropdown menu----------->
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="images/user-1.png" alt="" />
+
+            <div>
+              <h3>Kashif</h3>
+              <a href="profile.html">See your Profile</a>
+            </div>
+          </div>
+
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" alt="" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" alt="" />
+            <p>Setting & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" alt="" />
+            <p>Help and Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" alt="" />
+            <p>Display & Accessibility</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" alt="" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!------------navbar close-------------->
+    <!----------profile-------->
+    <div class="container">
+      <div class="profile-main">
+        <div class="profile-container">
+          <img src="images/cover-pic.png" width="100%" alt="" />
+          <div class="profile-container-inner">
+            <img src="images/user-1.png" class="profile-pic" alt="" />
+            <h1>Ahmad</h1>
+            <b>Web developer</b>
+            <p>Faisalabad , Pakistan &middot; <a href="#">Contact Info</a></p>
+            <div class="mutual-connection">
+              <img src="images/user-2.png" alt="" /><span
+                >1 mutual connection: karla de</span
+              >
+            </div>
+            <div class="profile-btn">
+              <a href="#" class="primary-btn"
+                ><img src="images/connect.png" alt="" />Connect</a
+              >
+              <a href="#"><img src="images/chat.png" alt="" />Messege</a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-description">
+          <h2>About</h2>
+          <p>
+            i m a web developer. i can make websites responsive and professional
+          </p>
+          <a href="#" class="see-more-link">See more...</a>
+        </div>
+        <div class="profile-description">
+          <h2>Experience</h2>
+          <div class="profile-desc-row">
+            <img src="images/microsoft.png" alt="" />
+            <div>
+              <h3>Frong End Developer</h3>
+              <b>abc company &middot; Full time</b>
+              <b>jan 2021 - Present &middot; 1.5 years</b>
+              <p>
+                i m a web developer. i can make websites responsive and
+                professional
+              </p>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="experience-link"
+            >Show All Experience <img src="images/right-arrow.png" alt=""
+          /></a>
+        </div>
+
+        <div class="profile-description">
+          <h2>Education</h2>
+          <div class="profile-desc-row">
+            <img src="images/stanford.png" alt="" />
+            <div>
+              <h3>Vu</h3>
+              <b>Msc Computer science</b>
+              <b>2021-2023</b>
+              <hr />
+            </div>
+          </div>
+        </div>
+        .
+        <div class="profile-description">
+          <h2>Skills</h2>
+          <a href="#" class="skills-btn">Leadership</a>
+          <a href="#" class="skills-btn">Web Design</a>
+          <a href="#" class="skills-btn">Development</a>
+          <a href="#" class="skills-btn">Planing</a>
+        </div>
+        <div class="profile-description">
+          <h2>Languages</h2>
+          <a href="#" class="language-btn">English</a>
+          <a href="#" class="language-btn">Urdu</a>
+        </div>
+      </div>
+
+      <!------------profile sidbar-->
+      <div class="profile-sidebar">
+        <div class="sidebar-ad">
+          <small>Ad &middot; &middot; &middot;</small>
+          <p>Tricks for web development</p>
+          <div>
+            <img src="images/user-1.png" alt="" />
+            <img src="images/mi-logo.png" alt="" />
+          </div>
+          <b>Brand and Demand</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-people">
+          <h3>People you may know</h3>
+          <div class="sidebar-people-row">
+            <img src="images/user-3.png" alt="" />
+            <div>
+              <h2>samuel</h2>
+              <p>Incharge</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="profile-footer">
+      <div class="sidebar-userful-link">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">more</a>
+        <div class="copyright-messege">
+          <img src="images/logo.png" alt="" />
+          <p>Linkedup &#169; 2022.All right reserved</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let profileMenu = document.getElementById("profileMenu");
+      function toggleMenu() {
+        profileMenu.classList.toggle("open-Menu");
+      }
+    </script>
+  </body>
+</html>
